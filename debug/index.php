@@ -17,7 +17,6 @@ if ($conn->connect_error) {
 
 // Close the connection when done
 
-
 $sql = "SELECT * FROM stagiaires";
 $result = $conn->query($sql);
 
@@ -34,4 +33,7 @@ if ($result->num_rows > 0) {
     echo "No stagiaires found.";
 }
 
+// phpinfo();
+
+// C:\xampp\php
 ?>
