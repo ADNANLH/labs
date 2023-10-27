@@ -1,1 +1,1 @@
-# this is a lab for gihub 
+# this is a lab for github 
